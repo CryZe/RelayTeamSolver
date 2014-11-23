@@ -196,7 +196,8 @@ namespace RelayTeamSolver
 
         private static bool CheckTeam(IEnumerable<Entry> team)
         {
-            return !(team.Contains("wooferzfg1") && team.Contains("Goldphnx"));
+            return !(team.Contains("Kejsmaster") &&
+                (team.Contains("Glitchymon") || team.Contains("Zelkys")));
         }
 
         private static IEnumerable<Entry> GetTeam(Entry[,] teams, int teamId)
