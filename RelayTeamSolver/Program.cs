@@ -99,11 +99,11 @@ namespace RelayTeamSolver
             new Entry("Rodner", TimeSpan.Parse("03:13:00")),
             //new Entry("Skyreon", TimeSpan.Parse("03:18:00")),
             //new Entry("Pheenoh", TimeSpan.Parse("03:20:00")),
+            new Entry("Mofat", TimeSpan.Parse("03:20:00")),
             new Entry("Zayloox", TimeSpan.Parse("03:21:30")),
             new Entry("chobin50", TimeSpan.Parse("03:22:00")),
             new Entry("Domiok", TimeSpan.Parse("03:23:00")),
             new Entry("Kejsmaster", TimeSpan.Parse("03:25:00")),
-            new Entry("Mofat", TimeSpan.Parse("03:35:00")),
         };
 
         static readonly Entry[] SkywardSword = new Entry[]
