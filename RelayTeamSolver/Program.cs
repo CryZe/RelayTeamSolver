@@ -86,10 +86,11 @@ namespace RelayTeamSolver
             //new Entry("Chasetopher", TimeSpan.Parse("04:30:00")),
             //new Entry("hood_rad", TimeSpan.Parse("04:50:00")),
             new Entry("TrogWW", TimeSpan.Parse("04:50:00")),
+            new Entry("Vulpone", TimeSpan.Parse("04:50:00")),
             new Entry("wooferzfg1", TimeSpan.Parse("04:55:00")),
-            new Entry("Zellpree", TimeSpan.Parse("05:00:00")),
+            //new Entry("Zellpree", TimeSpan.Parse("05:00:00")),
             new Entry("Chilla", TimeSpan.Parse("05:20:00")),
-            //new Entry("Goldphnx", TimeSpan.Parse("05:30:00")),
+            new Entry("Goldphnx", TimeSpan.Parse("05:40:00")),
         };
 
         static readonly Entry[] TwilightPrincess = new Entry[]
@@ -183,6 +184,8 @@ namespace RelayTeamSolver
 
         private static bool CheckTeams(Entry[,] teams)
         {
+            return true;
+
             for (var teamId = 0; teamId < teams.GetLength(0); ++teamId)
             {
                 var team = GetTeam(teams, teamId);
